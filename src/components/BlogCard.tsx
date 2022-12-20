@@ -17,9 +17,12 @@ export const BlogCard = ({ blog }: BlogCardProps) => {
           {blog.number}
         </span>
 
-        <h3 className="text-lg font-bold text-news-veryDarkBlue lg:text-2xl">
+        <a
+          href="#"
+          className="text-lg font-bold text-news-veryDarkBlue transition-colors hover:text-news-softRef lg:text-2xl"
+        >
           {blog.title}
-        </h3>
+        </a>
         <p className="text-news-darkGrayishBlue lg:text-lg">{blog.desc}</p>
       </span>
     </li>

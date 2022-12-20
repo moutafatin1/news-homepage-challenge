@@ -24,7 +24,7 @@ const App = () => {
                 the power of the platforms back into the hands of the people.
                 But is it really fulfilling its promise?
               </p>
-              <button className="bg-news-softRef px-8 py-4 text-sm font-bold uppercase tracking-[0.2em] text-news-offWhite">
+              <button className="bg-news-softRef px-8 py-4 text-sm font-bold uppercase tracking-[0.2em] text-news-offWhite transition-colors hover:bg-news-veryDarkBlue hover:text-news-offWhite">
                 Read more
               </button>
             </div>
