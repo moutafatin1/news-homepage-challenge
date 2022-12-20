@@ -9,7 +9,49 @@ export const Navbar = () => {
   return (
     <nav className="mx-auto flex max-w-7xl items-center justify-between p-4">
       <img src={Logo} alt="Logo" />
-      <button className="" onClick={() => setIsOpen(true)}>
+      <ul className=" hidden items-center gap-8 text-lg font-normal text-news-veryDarkBlue lg:flex">
+        <li>
+          <a
+            href="#"
+            className="transition-colors hover:text-news-veryDarkBlue/60"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            className="transition-colors hover:text-news-veryDarkBlue/60"
+          >
+            New
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            className="transition-colors hover:text-news-veryDarkBlue/60"
+          >
+            Popular
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            className="transition-colors hover:text-news-veryDarkBlue/60"
+          >
+            Trending
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            className="transition-colors hover:text-news-veryDarkBlue/60"
+          >
+            Categories
+          </a>
+        </li>
+      </ul>
+      <button className="lg:hidden" onClick={() => setIsOpen(true)}>
         <img src={IconMenu} alt="Icon Menu" />
       </button>
       <div
@@ -26,7 +68,7 @@ export const Navbar = () => {
         >
           <button
             onClick={() => setIsOpen(false)}
-            className="m-6 ml-auto h-10 w-10 rounded-lg p-1 transition-opacity hover:opacity-70 focus:outline-none focus:ring-2 focus:ring-news-veryDarkBlue"
+            className="m-6  ml-auto h-10 w-10 rounded-lg p-1 transition-opacity hover:opacity-70 focus:outline-none focus:ring-2 focus:ring-news-veryDarkBlue"
           >
             <img src={IconMenuClose} alt="Icon Menu Close" />
           </button>

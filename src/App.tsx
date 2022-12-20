@@ -6,7 +6,7 @@ import { News } from "./components/News";
 
 const App = () => {
   return (
-    <>
+    <div className="my-6">
       <Navbar />
       <main className="mx-auto flex max-w-7xl flex-col items-center gap-12 p-4  font-inter lg:grid lg:grid-cols-[repeat(3,auto)] lg:grid-rows-[repeat(3,auto)] lg:items-stretch">
         <div className="flex flex-col items-center text-center lg:col-span-2 lg:row-span-2 lg:block lg:text-left">
@@ -33,7 +33,7 @@ const App = () => {
         <News />
         <Blogs />
       </main>
-    </>
+    </div>
   );
 };
 
