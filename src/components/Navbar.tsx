@@ -7,7 +7,7 @@ import { fn } from "../utils";
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="flex items-center justify-between p-4">
+    <nav className="mx-auto flex max-w-7xl items-center justify-between p-4">
       <img src={Logo} alt="Logo" />
       <button className="" onClick={() => setIsOpen(true)}>
         <img src={IconMenu} alt="Icon Menu" />

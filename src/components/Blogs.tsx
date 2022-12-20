@@ -31,7 +31,7 @@ const blogs = [
 
 export const Blogs = () => {
   return (
-    <ul className="my-12 flex flex-col gap-8">
+    <ul className="col-span-3 my-12 flex flex-col gap-8 lg:my-0 lg:flex-row">
       {blogs.map((blog) => (
         <BlogCard blog={blog} />
       ))}

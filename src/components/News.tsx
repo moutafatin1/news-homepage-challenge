@@ -20,7 +20,7 @@ const newsData = [
 
 export const News = () => {
   return (
-    <div className="my-12 bg-news-veryDarkBlue p-4">
+    <div className="my-12 bg-news-veryDarkBlue p-4 lg:col-span-1 lg:row-span-2 lg:my-0">
       <h2 className="text-3xl font-bold text-news-softOrange">New</h2>
       <ul className="">
         {newsData.map((newData) => (
